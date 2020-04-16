@@ -1,0 +1,124 @@
+.comments-area {
+  border-radius: 10px;
+}
+
+.comments-area .comment-awaiting-moderation {
+  display: none;
+}
+
+.comment-body {
+  margin-bottom: 5px;
+  position: relative;
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.comment-body .comment-author {
+  padding-left: 20px;
+  position: relative;
+  display: table;
+  z-index: 2;
+}
+
+.comment-body .comment-author img {
+  margin-top: 18px;
+  border-radius: 50%;
+  float: left;
+  width: 78px;
+  height: 78px;
+}
+
+.comment-body .comment-author b {
+  float: left;
+  margin-left: 15px;
+  margin-top: 24px;
+  font-size: 26px;
+  color: black;
+}
+
+.comment-body .comment-author b a {
+  color: black;
+}
+
+.comment-body .comment-author span {
+  display: none;
+}
+
+.comment-body .comment-metadata {
+  z-index: 1;
+  margin-right: 15px;
+  display: block;
+  font-size: 14px;
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+
+.comment-body .comment-metadata a {
+  color: #707070;
+}
+
+.comment-awaiting-moderation {
+  position: absolute;
+  display: inline-block;
+  top: 100%;
+  text-align: center;
+  font-size: 14px;
+  color: black;
+  z-index: 1;
+}
+
+.reply a {
+  z-index: 2;
+}
+
+.reply .comment-reply-link {
+  position: absolute;
+  left: 90%;
+  top: 10px;
+  font-weight: 700;
+  color: #1742EC;
+}
+
+.comment-content {
+  margin-left: 105px;
+  margin-top: -48px;
+  max-width: 90%;
+  background-color: white;
+  margin-right: 5px;
+}
+
+.comment-content p {
+  font-size: 17px;
+  margin: 12px;
+  font-family: 'PT Sans', sans-serif;
+  color: black;
+  text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.comment.even.thread-even.depth-1.parent {
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.16);
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.comment.even.thread-even.depth-1.parent > .comment-body {
+  border-bottom: 1px solid #707070;
+  border-radius: 0px;
+}
+
+.comment.even.thread-even.depth-1.parent .comment-body {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.children .comment-body {
+  max-width: 800px;
+  margin-left: 49px;
+}
+/*# sourceMappingURL=style.css.map */
